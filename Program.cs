@@ -2,11 +2,13 @@
 
 namespace StaffFiles
 {
-    class Program
+    class Register
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Please enter name: ");
+            string name = Console.ReadLine();
+            Console.WriteLine("Name is: " + name);
         }
     }
 }
