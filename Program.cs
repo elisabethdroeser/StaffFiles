@@ -2,6 +2,7 @@
 
 namespace StaffFiles
 {
+    //to develop the code, I would like to have different classes, for name, and salary/bonus etc
     class Register
     {
         static void Main(string[] args)
